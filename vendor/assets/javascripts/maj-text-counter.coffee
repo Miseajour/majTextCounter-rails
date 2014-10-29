@@ -1,10 +1,10 @@
-/*!
-* jQuery Maj Text Counter Plugin v0.1
-* https://github.com/supernini/majTextCounter
-*
-* Copyright 2014 miseajour.net
-* Released under the MIT license
-*/
+# /*!
+# * jQuery Maj Text Counter Plugin v0.1
+# * https://github.com/supernini/majTextCounter
+# *
+# * Copyright 2014 miseajour.net
+# * Released under the MIT license
+# */
 
 $.fn.extend
   majTextCounter: (options) ->
