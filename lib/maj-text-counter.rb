@@ -1,6 +1,6 @@
 module MajTextCounter
   module Rails
-    class Engine < ::Rails::Engine
-    end
+    require 'maj-text-counter-rails/engine'
+    require 'maj-text-counter-rails/version'
   end
 end
