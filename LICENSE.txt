@@ -1,4 +1,4 @@
-Copyright (c) 2014 Administrator
+Copyright (c) 2014 Miseajour.net
 
 MIT License
 

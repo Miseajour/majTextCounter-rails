@@ -66,6 +66,3 @@ $.fn.extend
 
     return @each ()->
       generateContent this
-      
-$ ->
-  $(".text-counter").majTextCounter { wordLimit: 3}
