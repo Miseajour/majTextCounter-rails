@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    maj-text-counter-rails (1.0.0)
+    maj-text-counter-rails (1.0.1)
       coffee-rails (~> 4.0)
       compass-rails (~> 2.0)
       railties (~> 4.0)

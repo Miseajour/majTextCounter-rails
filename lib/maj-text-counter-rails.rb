@@ -1,5 +1,3 @@
-require 'maj-text-counter-rails/engine'
-
 module Maj
   module Text
     module Counter
