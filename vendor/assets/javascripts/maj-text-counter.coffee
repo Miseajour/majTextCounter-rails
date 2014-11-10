@@ -1,5 +1,5 @@
 # /*!
-# * jQuery Maj Text Counter Plugin v0.1
+# * jQuery Maj Text Counter Plugin v1.0.1
 # * https://github.com/supernini/majTextCounter
 # *
 # * Copyright 2014 miseajour.net
@@ -46,9 +46,10 @@ $.fn.extend
       if !event
         return wordCount(ch) >= settings.wordLimit
       code = event.which
-      return wordCount(ch) >= settings.wordLimit && [32,188, 190, 191,186].indexOf(code)!=-1
+      return wordCount(ch) >= settings.wordLimit && [32, 188, 190, 191, 186].indexOf(code)!=-1
       
     checkLimit = (obj, event) ->
+      return true if [46, 8].indexOf(event.which)!=-1
       return false if checkCarLimit(obj)
       return false if checkWordLimit(obj, event)
       return true
