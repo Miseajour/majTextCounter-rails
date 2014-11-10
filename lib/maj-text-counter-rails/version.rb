@@ -1,5 +1,5 @@
 module MajTextCounter
   module Rails
-    VERSION = "1.0.2"
+    VERSION = "1.0.6"
   end
 end

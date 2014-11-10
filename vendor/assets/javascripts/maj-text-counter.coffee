@@ -1,5 +1,5 @@
 # /*!
-# * jQuery Maj Text Counter Plugin v1.0.1
+# * jQuery Maj Text Counter Plugin
 # * https://github.com/supernini/majTextCounter
 # *
 # * Copyright 2014 miseajour.net
