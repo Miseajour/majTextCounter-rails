@@ -6,10 +6,10 @@ The `maj-text-counter-rails` gem integrates the `MajTextCounter` with the Rails 
 
 ## Installation
 
-Include `chosen-rails` in Gemefile
+Include `maj-text-counter-rails` in Gemefile
 
 ```rb
-gem 'majTextCounter-rails'
+gem 'maj-text-counter-rails'
 ```
 
 Then run `bundle install`
