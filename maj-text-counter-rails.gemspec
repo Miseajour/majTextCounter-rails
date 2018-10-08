@@ -16,12 +16,12 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split("\n")
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'railties', '~> 4.0'
-  spec.add_dependency 'coffee-rails', '~>  4.0'
+  spec.add_dependency 'railties', '~> 5.2'
+  spec.add_dependency 'coffee-rails', '~>  4.4'
   spec.add_dependency 'sass-rails', '~>  5.0.1'
   # spec.add_dependency 'compass-rails', '~>  2.0'
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency 'rails', '~>  4.2'
-  spec.add_development_dependency 'thor', '~>  0.14'
+  spec.add_development_dependency 'rails', '~>  5.2'
+  spec.add_development_dependency 'thor', '~>  0.20'
 end
